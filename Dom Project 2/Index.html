@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> DOM Project 2 </title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .div1{
+      width: 500px;
+      height: 500px;
+      background-color: blue;
+      clip-path: circle(50% at 0 0);
+      transition: all 1s ease;
+    }
+    .div1:hover{
+      clip-path: circle(100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="div1"></div>
+  <!-- Project 2 : Modal  -->
+  <!-- Modal Button -->
+  <button class="open-btn">
+    <p> Where's Our Modal </p>
+  </button>
+  <!-- Modal & Modal Background -->
+  <div class="modal-container">
+    <div class="modal">
+      <p> Here I am! </p>
+      <div class="close-btn">&times;</div>
+    </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
